@@ -25,32 +25,53 @@ A Multi-Asset Protocol for Decentralized Social Payments
 
 ---
 
-# What is Slidev?
+# Crypto - Barriers to Entry
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+<br/>
+<br/>
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- 📝 **Volatile** - Unpredictable supply & demand cause price instability 
+- 🎨 **Wallets** - Need to generate private/public key pairs to receive payments
 
-<br>
-<br>
+<br/>
+<br/>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+# Celo - Solution to Crypto Adoption
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+<br/>
+<br/>
+
+- 📝 **Easy-of-Use** - Sending a payment is as easy as sending a text message
+- 🎨 **Wallets** - Address-based encryption allows users to use their friends' cell phone numbers as public keys
+- 🎨 **Stable Value Assets** - Monetary policy with elastic supply rules, backed by a variable-value reserve
+- 🎨 **Mobile Block Rewards** - All users involved in transactions are also able to participate in verifications
+
+
+<div class="w-60 relative -mt-10">
+  <div class="relative w-60 h-60">
+    <img
+      v-motion
+      :initial="{ x: -1000, y: -1000, scale: 2.0, rotate: -50 }"
+      :enter="final"
+      class="absolute -top-75 left-160 right-10 -bottom-50"
+      src="celo-org.png"
+    />
+
+  </div>
+
+  <div 
+    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
+    v-motion
+    :initial="{ x: -80, opacity: 0}"
+    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
+  </div>
+</div>
+
 
 <style>
 h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-color: #2E3338;
+  background-image: linear-gradient(45deg, #2E3338 10%, #146b8c 50%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
