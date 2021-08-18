@@ -41,10 +41,11 @@ A Multi-Asset Protocol for Decentralized Social Payments
 <br/>
 <br/>
 
-- 📝 **Easy-of-Use** - Sending a payment is as easy as sending a text message
-- 🎨 **Wallets** - Address-based encryption allows users to use their friends' cell phone numbers as public keys
-- 🎨 **Stable Value Assets** - Monetary policy with elastic supply rules, backed by a variable-value reserve
-- 🎨 **Mobile Block Rewards** - All users involved in transactions are also able to participate in verifications
+- **Easy-of-Use** - Sending a payment is as easy as sending a text message
+- **Wallets** - Address-based encryption allows users to use their friends' cell phone numbers as public keys
+- **Stable Value Assets** - Monetary policy with elastic supply rules, backed by a variable-value reserve
+- **Mobile Block Rewards** - All users involved in transactions are also able to participate in verifications
+- **Social Impact** - 
 
 
 <div class="w-60 relative -mt-10">
@@ -82,30 +83,26 @@ h1 {
 
 ---
 
-# Navigation
+# Ease of Use
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+<div grid="~ cols-2 gap-2" m="-t-2">
 
-### Keyboard Shortcuts
+### With Just a Mobile Phone, Users Can:
+  * Start saving
+  * Spending money
+  * Participate in loan programs
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+</div>
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<div grid="~ cols-1 gap-2" m="-t-2">
 
----
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+### Address-Based Verification:
+  * Phone number public keys with permissionless private key generation
+  * Identity attestation works such that a user can send Celo to a friend's phone number, regardless of whether or not his/her friend previously downloaded a Celo wallet
+
+</div>
+
+
 ---
 
 # Code
@@ -345,3 +342,15 @@ class: text-center
 # Learn More
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+
+<!-- These are my notes on youtube videos:
+
+- Celo is making it really easy to use stablecoins
+- TVL = total value locked
+- Korean yuan is the next best stablecoin for celo
+- Best thing about celo is that they can add different assets to their reserve basket, such as nature backed assets, crypto, etc. It's now feasible to put tokenized carbon offset credits as well as tokenized land in the amazon rain forest. Most people in the future will want to choose to use a stablecoin that they know is good for the environment.
+
+- Markus Franke youtube video series on stablecoins
+
+
+ -->
