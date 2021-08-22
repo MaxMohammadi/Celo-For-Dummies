@@ -351,6 +351,10 @@ class: text-center
 - Best thing about celo is that they can add different assets to their reserve basket, such as nature backed assets, crypto, etc. It's now feasible to put tokenized carbon offset credits as well as tokenized land in the amazon rain forest. Most people in the future will want to choose to use a stablecoin that they know is good for the environment.
 
 - Markus Franke youtube video series on stablecoins
-
-
+- continue watching stablecoin videos
+- break slides up into: 
+  - ODIS for identity
+  - stables for payments
+  - social impact and community
+  - mobile phone friendly
  -->
