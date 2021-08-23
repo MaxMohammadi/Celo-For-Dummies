@@ -41,11 +41,14 @@ A Multi-Asset Protocol for Decentralized Social Payments
 <br/>
 <br/>
 
+### Proof-of-Stake and Mobile Focused Blockchain
+
 - **Easy-of-Use** - Sending a payment is as easy as sending a text message
 - **Wallets** - Address-based encryption allows users to use their friends' cell phone numbers as public keys
 - **Stable Value Assets** - Monetary policy with elastic supply rules, backed by a variable-value reserve
 - **Mobile Block Rewards** - All users involved in transactions are also able to participate in verifications
-- **Social Impact** - 
+- **Social Impact** - Universal Basic Income trials (GiveDirectly) & Grameen Foundation
+- **EigenTrust-Based Reputation** - Peer-to-Peer reputation algorithm
 
 
 <div class="w-60 relative -mt-10">
@@ -98,48 +101,23 @@ h1 {
 
 ### Address-Based Verification:
   * Phone number public keys with permissionless private key generation
-  * Identity attestation works such that a user can send Celo to a friend's phone number, regardless of whether or not his/her friend previously downloaded a Celo wallet
+  * Identity attestation works such that a user can send Celo to a friend's phone number, regardless of whether or not his/her friend previously signed up for a wallet
 
 </div>
 
 
 ---
 
-# Code
+# Stable Value Assets
 
-Use code snippets and get the highlighting directly![^1]
+* Multi-asset crypto reserve
+* Tokenized plots of land in the rainforest -> tokenized carbon credits
+* Elastic supply - contraction and expansion parameters based on demand and reserve values
+* Governance mechanism which allows new local/fiat currencies to be introduced
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
+* When coin supply needs to expand, the protocol creates new coins. But rather than distributing them to token holders, it uses them to purchase a basket of cryptocurrencies at market rates through a smart contract. These purchases get added to the reserves. (Maybe make a cycle diagram for this)
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
+While a single stable coin would be useful for several purposes (for example in cryptoasset trading and internet commerce), a more robust ecosystem would involve a family of local, regional, and utility stable value coins. The benefits of such a monetary ecology has been discussed broadly, for example in, but here we focus on one: a stable currency is only meaningful if it is stable vis-a-vis the price of goods and services that are purchased using that currency. Using a global currency for local transactions would introduce price volatility in regions where regional consumer price dynamics vary from the global consumer price dynamics
 ---
 
 # Components
