@@ -166,7 +166,35 @@ h1 {
 
 # Social Impact
 
-<div grid="~ cols-2 gap-4">
+<div grid="~ cols-2 gap-10">
+
+<div class="relative mt-1" align="center">
+  <div class="relative w-110 h-110">
+    <img
+      src="future2.png" border="rounded"
+    />
+
+  </div>
+</div>
+
+<div class="relative mt-1" align="center">
+  <div class="relative w-110 h-110">
+    <img
+      src="results.png" border="rounded"
+    />
+
+  </div>
+</div>
+
+
+<div class="relative mt-1">
+  <div class="relative w-50 h-110">
+    <img
+      src="stat.png" border="rounded"
+    />
+
+  </div>
+</div>
 
 </div>
 
@@ -175,7 +203,7 @@ h1 {
 # Future of Celo
 
 * Celo as a CBDC
-* Replacing montery policy
+* Replacing monetary policy
 
 <div class="relative mt-1" align="center">
   <div class="relative w-110 h-110">
